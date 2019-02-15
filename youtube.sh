@@ -3,7 +3,7 @@
 
 while read line; do
 
-echo "Processing song: $line"
+echo "INFO: Processing song: $line"
 
 youtube-dl -x --audio-format mp3 ''$line''
 
